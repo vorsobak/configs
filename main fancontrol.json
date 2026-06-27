@@ -1,0 +1,560 @@
+{
+  "__VERSION__": "270",
+  "FanControl": {
+    "Controls": [
+      {
+        "NickName": "CPU Fan",
+        "Identifier": "/lpc/nct6687d/control/0",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Pump Fan",
+        "Identifier": "/lpc/nct6687d/control/1",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": {
+          "Name": "Graph"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "System Fan #1",
+        "Identifier": "/lpc/nct6687d/control/2",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graph"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687d/fan/1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            70,
+            1848,
+            false
+          ],
+          [
+            90,
+            1852,
+            false
+          ],
+          [
+            100,
+            1863,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "выдув",
+        "Identifier": "/lpc/nct6687d/control/3",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graph"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687d/fan/3"
+        },
+        "SelectedStart": 32,
+        "SelectedStop": 26,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            20,
+            0,
+            false
+          ],
+          [
+            30,
+            787,
+            false
+          ],
+          [
+            40,
+            1041,
+            false
+          ],
+          [
+            50,
+            1263,
+            false
+          ],
+          [
+            60,
+            1481,
+            false
+          ],
+          [
+            70,
+            1669,
+            false
+          ],
+          [
+            80,
+            1738,
+            false
+          ],
+          [
+            90,
+            1738,
+            false
+          ],
+          [
+            100,
+            1739,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "вдув",
+        "Identifier": "/lpc/nct6687d/control/4",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graph"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687d/fan/4"
+        },
+        "SelectedStart": 35,
+        "SelectedStop": 26,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            20,
+            0,
+            false
+          ],
+          [
+            30,
+            756,
+            false
+          ],
+          [
+            40,
+            989,
+            false
+          ],
+          [
+            50,
+            1184,
+            false
+          ],
+          [
+            60,
+            1374,
+            false
+          ],
+          [
+            70,
+            1543,
+            false
+          ],
+          [
+            80,
+            1703,
+            false
+          ],
+          [
+            90,
+            1735,
+            false
+          ],
+          [
+            100,
+            1741,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "левый",
+        "Identifier": "/lpc/nct6687d/control/5",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graph"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687d/fan/5"
+        },
+        "SelectedStart": 42,
+        "SelectedStop": 36,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            30,
+            0,
+            false
+          ],
+          [
+            40,
+            896,
+            false
+          ],
+          [
+            50,
+            1045,
+            false
+          ],
+          [
+            60,
+            1181,
+            false
+          ],
+          [
+            70,
+            1298,
+            false
+          ],
+          [
+            80,
+            1409,
+            false
+          ],
+          [
+            90,
+            1504,
+            false
+          ],
+          [
+            100,
+            1619,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "правый",
+        "Identifier": "/lpc/nct6687d/control/6",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graph"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687d/fan/6"
+        },
+        "SelectedStart": 42,
+        "SelectedStop": 36,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            30,
+            0,
+            false
+          ],
+          [
+            40,
+            894,
+            false
+          ],
+          [
+            50,
+            1041,
+            false
+          ],
+          [
+            60,
+            1169,
+            false
+          ],
+          [
+            70,
+            1283,
+            false
+          ],
+          [
+            80,
+            1386,
+            false
+          ],
+          [
+            90,
+            1492,
+            false
+          ],
+          [
+            100,
+            1621,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "жопа",
+        "Identifier": "/lpc/nct6687d/control/7",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graph"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687d/fan/7"
+        },
+        "SelectedStart": 42,
+        "SelectedStop": 36,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            30,
+            0,
+            false
+          ],
+          [
+            40,
+            1020,
+            false
+          ],
+          [
+            50,
+            1238,
+            false
+          ],
+          [
+            60,
+            1447,
+            false
+          ],
+          [
+            70,
+            1642,
+            false
+          ],
+          [
+            80,
+            1830,
+            false
+          ],
+          [
+            90,
+            1993,
+            false
+          ],
+          [
+            100,
+            2166,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "Control 1 - NVIDIA GeForce RTX 3080 Ti",
+        "Identifier": "NVApiWrapper/0-GA102-A/control/0",
+        "IsHidden": false,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Control 2 - NVIDIA GeForce RTX 3080 Ti",
+        "Identifier": "NVApiWrapper/0-GA102-A/control/1",
+        "IsHidden": false,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      }
+    ],
+    "CustomSensors": [],
+    "FanCurves": [
+      {
+        "Name": "Graph",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "/intelcpu/0/temperature/1"
+        },
+        "Points": [
+          "50,20",
+          "90,93.92177777777778"
+        ],
+        "MaximumTemperature": 100,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6687d/fan/0",
+        "IsHidden": false,
+        "NickName": "CPU Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6687d/fan/1",
+        "IsHidden": false,
+        "NickName": "System Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6687d/fan/2",
+        "IsHidden": false,
+        "NickName": "System Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6687d/fan/3",
+        "IsHidden": false,
+        "NickName": "System Fan #2"
+      },
+      {
+        "Identifier": "/lpc/nct6687d/fan/4",
+        "IsHidden": false,
+        "NickName": "System Fan #3"
+      },
+      {
+        "Identifier": "/lpc/nct6687d/fan/5",
+        "IsHidden": false,
+        "NickName": "System Fan #4"
+      },
+      {
+        "Identifier": "/lpc/nct6687d/fan/6",
+        "IsHidden": false,
+        "NickName": "System Fan #5"
+      },
+      {
+        "Identifier": "/lpc/nct6687d/fan/7",
+        "IsHidden": false,
+        "NickName": "System Fan #6"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
+        "IsHidden": false,
+        "NickName": "Fan 1 - NVIDIA GeForce RTX 3080 Ti"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
+        "IsHidden": false,
+        "NickName": "Fan 2 - NVIDIA GeForce RTX 3080 Ti"
+      }
+    ],
+    "TemperatureSensors": []
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "Memory": false,
+      "Motherboard": true,
+      "PowerMonitor": false,
+      "PSU": false,
+      "Storage": false,
+      "StorageUpdateInterval": "00:01:00",
+      "ZeroRPMOverride": true
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": true
+    }
+  },
+  "MainWindow": {
+    "Fahrenheit": false,
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF1286BE",
+    "SecondaryColor": "#FFDB0B91",
+    "SelectedTheme": "",
+    "ShowHiddenCards": true,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TrayIconColor": null,
+    "TrayIcons": []
+  }
+}
