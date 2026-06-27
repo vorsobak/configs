@@ -1,0 +1,105 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	users = 
+	[
+		{
+			flags = 3
+			steamid = 76561198383768359
+		},
+		{
+			flags = 3
+			steamid = 76561199182024561
+		},
+		{
+			flags = 3
+			steamid = 76561199426315234
+		},
+		{
+			flags = 3
+			steamid = 76561199497109646
+		},
+		{
+			flags = 3
+			steamid = 76561199811885152
+		},
+		{
+			flags = 3
+			steamid = 76561198130416486
+		},
+		{
+			flags = 3
+			steamid = 76561199007447146
+		},
+		{
+			flags = 3
+			steamid = 76561199875982575
+		},
+		{
+			flags = 3
+			steamid = 76561199427319538
+		},
+		{
+			flags = 3
+			steamid = 76561199120987500
+		},
+		{
+			flags = 3
+			steamid = 76561199634621925
+		},
+		{
+			flags = 3
+			steamid = 76561199006372558
+		},
+		{
+			flags = 3
+			steamid = 76561199834422789
+		},
+		{
+			flags = 3
+			steamid = 76561199631894392
+		},
+		{
+			flags = 3
+			steamid = 76561198772724844
+		},
+		{
+			flags = 3
+			steamid = 76561198770067539
+		},
+		{
+			flags = 3
+			steamid = 76561198767230884
+		},
+		{
+			flags = 3
+			steamid = 76561198220596773
+		},
+		{
+			flags = 3
+			steamid = 76561198985692073
+		},
+		{
+			flags = 3
+			steamid = 76561198074808221
+		},
+		{
+			flags = 3
+			steamid = 76561199053234607
+		},
+		{
+			flags = 3
+			steamid = 76561198248216042
+		},
+	]
+	player_volume_map = 
+	[
+		{
+			accountid = 339112452
+			volume = 0.01
+		},
+		{
+			accountid = 1137040028
+			volume = 0.0484
+		},
+	]
+}
